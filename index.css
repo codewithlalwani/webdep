@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+#main{
+    height:100% ;
+    width:100%;
+    display: flex;
+}
+
+#left{
+
+    height: 100%;
+    width:65%;
+    background-color: rgba(102, 80, 107, 0.774);
+    align-items: center;
+    align-content: space-around;
+    
+}
+
+#right{
+    height: 100%;
+    width:35%;
+    background-color: silver;
+   
+}
+
+#lup{
+    
+    margin-top: 4%;
+    margin-left: 5%;
+    background-color: red;
+    height: 54%;
+    width: 90%;
+
+}
+
+#left #nav{
+    
+    width: 100%;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 30px;
+
+
+}
+
+#g{
+    height: 17px;
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left #nav a{
+    font-family: sans-serif;
+    color:black;
+    font-style: ;
+    text-decoration: none;
+}
+
+#ldown{
+    background-color: silver;
+    height:40%;
+    width:90%;
+    margin-left: 5%;
+   overflow: hidden;
+    display: flex;
+    
+}
+
+#ldown #imge{
+    height: 100%;
+}
+
+#ldown #z{
+    height: 100%;
+}
+
+
+
+#t{
+   
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+    margin-top: -280px;
+    font-size: 50px;
+}
+
+#y img{
+    
+    height: 250px;
+    width:200px;
+    margin-left: 65%;
+    margin-top: 8%;
+    transform: rotate(-20deg);
+}
+
+#k img{
+    
+    height: 250px;
+    width:200px;
+    margin-left: 130px;
+    margin-top: -280px;
+    transform: rotate(20deg);
+}
+
+#lup img{
+    opacity: 0.8;
+}
+
+#right{
+    overflow: hidden;
+}
+
+#rup{
+    margin-top: 10%;
+    height: 40%;
+    display: flex;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+#right #rdown {
+   
+    height: 40%;
+    margin-top:20% ;
+    margin-left: 5%;
+    overflow: hidden;
+
+}
+
+
+    @font-face {
+        font-family: "Festive";
+        src: url("Festive-Regular.ttf");
+    }
+
+    #text{
+        position: absolute;
+        font-family: Festive;
+        margin-top: 330px;
+        margin-left: 5%;
+        font-size: 70px;
+        opacity: 0.4;
+    }
+        
